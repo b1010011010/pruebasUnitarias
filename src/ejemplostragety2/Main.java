@@ -3,12 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemplostragety;
+package ejemplostragety2;
 
 /**
  *
  * @author gonzalo.araya
  */
+//menu 
 public class Main {
     public static void main(String[] args)
     {
@@ -24,10 +25,10 @@ public class Main {
         
         context = new Calculo( new Dividir() );
         int divide = context.procesar(5,3);
-        
-        System.out.println("Suma: " + suma );
-        System.out.println("Resta: " + resta );
-        System.out.println("Multiplica: " + multi );
-        System.out.println("Divide: " + divide );
+        //test 
+        System.out.println("Resultado Suma: " + suma );
+        System.out.println("Resultado Resta: " + resta );
+        System.out.println("Resultado Multiplicacion: " + multi );
+        System.out.println("Resultado Division: " + divide );
     }
 }

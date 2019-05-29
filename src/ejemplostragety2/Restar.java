@@ -3,13 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemplostragety;
+package ejemplostragety2;
 
 /**
  *
  * @author gonzalo.araya
  */
-public interface ICalculo {
-    public int realizaOperacion(int a,int b);
-    
+public class Restar implements ICalculo{
+    public Restar ()
+    {
+    }
+    @Override //sobreescribe una clase padre
+    public int realizaOperacion (int a,int b)
+    {
+        return a-b;
+    }
 }

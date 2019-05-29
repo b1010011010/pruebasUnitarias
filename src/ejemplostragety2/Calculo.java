@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemplostragety;
+package ejemplostragety2;
 
 /**
  *
  * @author gonzalo.araya
  */
 public class Calculo {
-    private ICalculo strategy;
+    private ICalculo strategy; //interfaz calcular
     
     public Calculo(ICalculo strategy){
         this.strategy = strategy;

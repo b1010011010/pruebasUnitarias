@@ -5,7 +5,7 @@
  */
 package ejemplostragety;
 
-import ejemplostragety2.Multiplicar;
+import ejemplostragety2.Dividir;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -17,9 +17,9 @@ import static org.junit.Assert.*;
  *
  * @author gonzalo.araya
  */
-public class MultiplicarTest {
+public class DividirTest {
     
-    public MultiplicarTest() {
+    public DividirTest() {
     }
     
     @BeforeClass
@@ -39,20 +39,20 @@ public class MultiplicarTest {
     }
 
     /**
-     * Test of realizaOperacion method, of class Multiplicar.
+     * Test of realizaOperacion method, of class Dividir.
      */
     @Test
     public void testRealizaOperacion() {
         System.out.println("realizaOperacion");
         int a = 5;
         int b = 3;
-        Multiplicar instance = new Multiplicar();
-        int expResult = 15;
+        Dividir instance = new Dividir();
+        int expResult = 1;
         int result = instance.realizaOperacion(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        if (result != expResult){
-          fail("The test case is a prototype.");
+        if(result!=expResult){
+        fail("The test case is a prototype.");
     }
     
-}//--probando multiplicacion
+}
